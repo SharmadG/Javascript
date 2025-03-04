@@ -15,9 +15,11 @@ const gameName = new String("Sharmad");
 // console.log(gameName.toLowerCase());
 // console.log(gameName.indexOf('a'));
 
-const newString = gameName.substring(0,4);
+const newString = gameName.substring(2,4);
 console.log(newString);
 
-const anotherString = gameName.slice(-4, 8);
+const anotherString = gameName.slice(-3, 8);
 console.log(anotherString);
 
+const splitString = gameName.split('r');
+console.log(splitString)
